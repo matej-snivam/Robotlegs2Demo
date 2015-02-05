@@ -17,7 +17,6 @@ package com432tone.demo.robotlegs2demo.config
         public var signalCommandMap:ISignalCommandMap;
 
         public function configure():void {
-
             signalCommandMap.map(ViewClicked).toCommand(ViewClickedCommand);
         }
     }
